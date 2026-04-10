@@ -2,7 +2,7 @@
 
 A simple Node.js-based system for generating, storing, and validating API keys.
 
-## Features
+## FeatureS PRESENT
 - **Key Generation**: Uses `nanoid` (cryptographically secure) for generating random, unique API keys.
 - **Secure Storage**: API keys are hashed with SHA-256 before being stored in the database. Plain text keys are only shown to the user once upon creation.
 - **Permissions Management**: Each key can have a custom list of permissions (e.g., `read`, `write`, `admin`).
