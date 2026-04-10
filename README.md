@@ -20,7 +20,7 @@ A simple Node.js-based system for generating, storing, and validating API keys.
 4.  **Admin Token Protection**: Key management endpoints (generate/revoke) are protected by a simulated administrative token (`ADMIN_TOKEN`). In a production setting, this would be replaced by full auth logic.
 5.  **Database Protection**: SQLite is simple but needs standard file-level protection. Use more robust systems (PostgreSQL, etc.) for high-traffic or highly sensitive applications.
 
----
+---------
 
 ## Technical Stack
 - **Node.js** with **Express**
@@ -28,7 +28,7 @@ A simple Node.js-based system for generating, storing, and validating API keys.
 - **nanoid** for key generation
 - **crypto** (built-in) for SHA-256 hashing
 
----
+---------------
 
 ## How to Test
 
